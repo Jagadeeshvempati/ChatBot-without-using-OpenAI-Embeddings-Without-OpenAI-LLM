@@ -3,7 +3,9 @@
 Chatbot for Document Question Answering
 This repository contains code for setting up a document question answering (QA) system using Python. The system is designed to retrieve answers from a collection of documents in response to user queries. It leverages pre-trained language models from the Hugging Face model hub and provides functionalities for document indexing, retrieval, and question answering.
 
+
 Features:
+
 Document Indexing: PDF documents are indexed using the langchain library, enabling efficient retrieval of relevant passages.
 
 Language Model Integration: Utilizes Hugging Face's Transformer models for question answering tasks.
