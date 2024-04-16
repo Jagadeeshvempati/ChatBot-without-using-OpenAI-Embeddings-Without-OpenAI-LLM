@@ -5,23 +5,33 @@ This repository contains code for setting up a document question answering (QA) 
 
 Features:
 Document Indexing: PDF documents are indexed using the langchain library, enabling efficient retrieval of relevant passages.
+
 Language Model Integration: Utilizes Hugging Face's Transformer models for question answering tasks.
+
 Google Drive Integration: Allows users to load PDF documents directly from Google Drive for processing.
+
 Retrieval-Based QA: Implements a retrieval-based question answering system, retrieving relevant answers from indexed documents.
 
 
 Setup:
 Install required dependencies using pip.
+
 Mount Google Drive to access PDF documents.
+
 Configure the folder path containing PDF files.
+
 Create document loaders and index them using langchain.
+
 Set up the language model and retrieval-based QA chain.
+
 Run queries to retrieve answers from indexed documents.
 
 
 Usage:
 Provide a query to the chatbot.
+
 The chatbot will retrieve relevant answers from indexed documents.
+
 Answers are returned based on document content and relevance to the query.
 
 
