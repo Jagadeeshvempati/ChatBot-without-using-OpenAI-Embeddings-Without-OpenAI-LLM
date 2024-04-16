@@ -16,6 +16,7 @@ Retrieval-Based QA: Implements a retrieval-based question answering system, retr
 
 
 Setup:
+
 Install required dependencies using pip.
 
 Mount Google Drive to access PDF documents.
@@ -30,6 +31,7 @@ Run queries to retrieve answers from indexed documents.
 
 
 Usage:
+
 Provide a query to the chatbot.
 
 The chatbot will retrieve relevant answers from indexed documents.
@@ -38,11 +40,12 @@ Answers are returned based on document content and relevance to the query.
 
 
 Requirements:
-Python 3.x
-langchain
-huggingface_hub
-sentence_transformers
-unstructured
-chromadb
-Cython
-tiktoken
+
+Python 3.x, 
+langchain, 
+huggingface_hub, 
+sentence_transformers, 
+unstructured, 
+chromadb, 
+Cython, 
+tiktoken.
